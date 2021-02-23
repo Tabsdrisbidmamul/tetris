@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import androidx.appcompat.app.ActionBar
 import com.example.app.stroage.AppPreferences
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     var tvHighScore: TextView? = null
@@ -45,6 +45,8 @@ class MainActivity : AppCompatActivity() {
     private fun onBtnResetScoreClick(view: View) {
         val preferences = AppPreferences(this)
         preferences.clearHighScore()
+        Snackbar.make(view, "Score successfully reset", Snackbar.LENGTH_SHORT).show()
+        tvHighScore?.text = "High Score: ${preferences.getHighScore()}"
     }
 
     private fun onBtnNewGameClick(view: View) {
