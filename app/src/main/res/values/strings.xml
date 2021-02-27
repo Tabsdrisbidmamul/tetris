@@ -1,8 +1,14 @@
 <resources>
+    <!-- Main Activity  -->
     <string name="app_name">App</string>
     <string name="tetris_header">Tetris</string>
     <string name="high_score_label">High Score: 0</string>
     <string name="btn_new_game">New Game</string>
     <string name="btn_reset_score">Reset Score</string>
     <string name="btn_exit">Exit</string>
+
+    <!-- Game Activity -->
+    <string name="high_score">High score</string>
+    <string name="current_score">Current score</string>
+    <string name="btn_restart">Restart</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.app.stroage
+package com.example.app.storage
 
 import android.content.Context
 import android.content.SharedPreferences

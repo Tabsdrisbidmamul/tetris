@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import com.example.app.stroage.AppPreferences
+import com.example.app.storage.AppPreferences
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
